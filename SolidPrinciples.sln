@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidPrinciples", "SolidPrinciples\SolidPrinciples.csproj", "{FD4794F7-4902-41FB-9CAD-639F081AC0AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. RAG", "0. RAG", "{66866B41-2AAB-4F2F-9AD7-3D566DAFF0ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidPrinciples.Refactored", "SolidPrinciples.Refactored\SolidPrinciples.Refactored.csproj", "{EB76D624-46E5-43F4-ACD5-80C50D447701}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. SRP", "1. SRP", "{B9B84888-CD36-466A-A648-13720D810FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidPrinciples.Refactored.Srp", "SolidPrinciples.Refactored.Srp\SolidPrinciples.Refactored.Srp.csproj", "{2FC272C3-0D62-414F-A2AD-6DEA117BE2DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. OCP", "2. OCP", "{065FDE04-25F2-4BE7-8300-D1B0BEE0ABC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidPrinciples.Refactored.Ocp", "SolidPrinciples.Refactored.Ocp\SolidPrinciples.Refactored.Ocp.csproj", "{A5B60B38-B5E8-4241-84F9-6D79FC116D95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD4794F7-4902-41FB-9CAD-639F081AC0AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4794F7-4902-41FB-9CAD-639F081AC0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4794F7-4902-41FB-9CAD-639F081AC0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4794F7-4902-41FB-9CAD-639F081AC0AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB76D624-46E5-43F4-ACD5-80C50D447701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB76D624-46E5-43F4-ACD5-80C50D447701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB76D624-46E5-43F4-ACD5-80C50D447701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB76D624-46E5-43F4-ACD5-80C50D447701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC272C3-0D62-414F-A2AD-6DEA117BE2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC272C3-0D62-414F-A2AD-6DEA117BE2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC272C3-0D62-414F-A2AD-6DEA117BE2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC272C3-0D62-414F-A2AD-6DEA117BE2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B60B38-B5E8-4241-84F9-6D79FC116D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B60B38-B5E8-4241-84F9-6D79FC116D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B60B38-B5E8-4241-84F9-6D79FC116D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B60B38-B5E8-4241-84F9-6D79FC116D95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD4794F7-4902-41FB-9CAD-639F081AC0AB} = {66866B41-2AAB-4F2F-9AD7-3D566DAFF0ED}
+		{EB76D624-46E5-43F4-ACD5-80C50D447701} = {66866B41-2AAB-4F2F-9AD7-3D566DAFF0ED}
+		{2FC272C3-0D62-414F-A2AD-6DEA117BE2DC} = {B9B84888-CD36-466A-A648-13720D810FB2}
+		{A5B60B38-B5E8-4241-84F9-6D79FC116D95} = {065FDE04-25F2-4BE7-8300-D1B0BEE0ABC8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC52E268-FAFF-4BE3-807F-104A203E4AE6}
+	EndGlobalSection
+EndGlobal
